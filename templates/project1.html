@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/projecten.css">
+    <script src="../static/projecten.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <a href="../templates/index.html"><img src="../static/fotos/index/logo-geel-blauw.png" alt="logo"></a>
+        <nav>
+            <ul><a href="../templates/index.html#home">Home</a></li>
+            <ul><a href="../templates/index.html#projects">Projecten</a></li>
+            <ul><a href="../templates/index.html#learningoutcomes">Leeruitkomsten</a></li>
+            <ul><a href="../templates/index.html#aboutme">Over Mij</a></li>
+        </nav>
+    </header>
+
+
+    <div class="book-wrapper">
+        <!-- Comic Book Left Panel -->
+        <div class="comic-left">
+          <div class="panel-button" style="top: 15%; left: 50%;" onclick="showExplanation('Moodboard')">Moodboard</div>
+          <div class="panel-button" style="top: 30%; left: 10%;" onclick="showExplanation('Style Scape')">Style Scape</div>
+          <div class="panel-button" style="top: 45%; left: 35%;" onclick="showExplanation('Brand Guide')">Brand Guide</div>
+          <div class="panel-button" style="top: 60%; left: 15%;" onclick="showExplanation('Content Strategie')">Content Strategie</div>
+          <div class="panel-button" style="top: 75%; left: 35%;" onclick="showExplanation('Presentatie')">Presentatie</div>
+          <div class="panel-button" style="top: 90%; left: 5%;" onclick="showExplanation('Reflectie')">Reflectie</div>
+        </div>
+      
+        <!-- Explanation Right Panel -->
+        <div class="explanation">
+          <h1>Uitleg Project</h1>
+          <p id="explanation-text">Klik op een paneel voor uitleg.</p>
+        </div>
+      </div>
+</body>
+</html>
