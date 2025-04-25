@@ -69,9 +69,15 @@ nav a{
   text-decoration: none;
   color:white;
   transition: color 0.3s ease;
+  font-family: 'Refridgerator-Regular', Arial, sans-serif;
+  font-size:1.5em;
 }
 
 nav a:hover {
+  color: #F8DA32;
+}
+
+nav a.active {
   color: #F8DA32;
 }
 
